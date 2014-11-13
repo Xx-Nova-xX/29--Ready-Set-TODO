@@ -33,6 +33,7 @@
 * Click a button on each item to remove it; confirm first?
 * Can I get it back after I remove it? Trash can vs. black hole of death?
 * Can I remove more than one item at a time? All completed items?
+
 ----
 
 #### I can _change a task on the list_ so that I can _fix my typos and be more specific about them_.
