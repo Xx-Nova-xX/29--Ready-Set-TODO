@@ -1,6 +1,8 @@
 (function( window ) {
 	'use strict';
 
+$('.selected').css("font-weight", "bold");
+
 $("#filters").click(function() { /*selected = All function*/
 	$('.active, .completed').show();
 	$('.selected').css("font-weight", "bold");
