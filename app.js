@@ -3,20 +3,17 @@
 
 $("#filters").click(function() {
 	$('.active, .completed').show();
-	console.log("1st");
 });
 
-$('#filters .active').click(function(e) {
+$('#filters .active').click(function() {
 	$('.active').show();
-	$('.completed').hide();
-	console.log("2nd");
+	$('#todo-list .completed').hide();
 	return false;
 });
 
-$('#filters .completed').click(function(e) {
+$('#filters .completed').click(function() {
 	$('.completed').show();
-	$('.active').hide();
-	console.log("3rd");
+	$('#todo-list .active').hide();
 	return false;
 });
 
