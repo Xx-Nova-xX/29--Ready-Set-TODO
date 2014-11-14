@@ -344,9 +344,9 @@ label[for='toggle-all'] {
 	text-decoration: none;
 }
 
-#filters li a:active {
+/*#filters li a.selected {
 	font-weight: bold;
-}
+}*/
 
 #clear-completed {
 	float: right;
