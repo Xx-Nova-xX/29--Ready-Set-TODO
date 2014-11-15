@@ -1,20 +1,41 @@
 (function( window ) {
 	'use strict';
 
-$("#filters").click(function() {  /*All function*/
+$('.selected').css("font-weight", "bold");
+
+$("#filters").click(function() { /*selected = All function*/
 	$('.active, .completed').show();
+	$('.selected').css("font-weight", "bold");
+	$('.active, .completed').css("font-weight", "none");
 });
 
-$('#filters .active').click(function() { /*Active function*/
+$('#filters .active').click(function() { /*active function*/
 	$('.active').show();
+	$('.active').css("font-weight", "bold");
+	$('.completed, .selected').css("font-weight", "none");
 	$('#todo-list .completed').hide();
 	return false;
 });
 
-$('#filters .completed').click(function() { /*Completed function*/
+$('#filters .completed').click(function() { /*completed function */
 	$('.completed').show();
+	$('.completed').css("font-weight", "bold");
+	$('.active, .selected').css("font-weight", "none");
 	$('#todo-list .active').hide();
 	return false;
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 })( window );

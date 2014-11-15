@@ -38,7 +38,6 @@ input[type="checkbox"] {
   outline: none;
 }
 
-
 #todoapp {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.9);
@@ -345,9 +344,9 @@ label[for='toggle-all'] {
 	text-decoration: none;
 }
 
-#filters li a.selected {
+/*#filters li a.selected {
 	font-weight: bold;
-}
+}*/
 
 #clear-completed {
 	float: right;
